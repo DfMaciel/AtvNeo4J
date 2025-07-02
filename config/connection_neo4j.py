@@ -1,8 +1,8 @@
 from neo4j import GraphDatabase
 
 def connection_neo4j():
-    URI = "neo4j+ssc://b135cb71.databases.neo4j.io"
-    AUTH = ("neo4j", "iWnXoPPKBDWDrS8EYXBxPMV9JTDeB5AwngoztnO43ns")
+    URI = "neo4j+ssc://281b1681.databases.neo4j.io"
+    AUTH = ("neo4j", "_fDF3MorZQTdnu6-GcF0YD7XYcHYzzb6za_5xo7nySE")
 
     try:
         driver = GraphDatabase.driver(URI, auth=(AUTH))
